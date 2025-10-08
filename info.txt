@@ -14,5 +14,5 @@
 		"description": ""
 	},
 	"size": 256,
-	"modoGrabacion": "mac.js"
+	"scriptEjecutado": "maptc.js"
 }

@@ -19,7 +19,7 @@ try {
         contenidoStr: contenidoStr,
         contenidoObj: JSON.parse(contenidoStr),
         size: size,
-        modoGrabacion: scriptName
+        scriptEjecutado: scriptName
     };
 
     console.log(info);
