@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const scriptName = path.basename(__filename);
 
 
 const packageJsonPath = path.join(__dirname, '../package.json');
@@ -18,12 +19,13 @@ try {
         contenidoStr: contenidoStr,
         contenidoObj: JSON.parse(contenidoStr),
         size: size,
+        modoGrabacion: scriptName
     };
 
     console.log(info);
 
     fs.writeFileSync(infoTxtPath, JSON.stringify(info, null, '\t'));
-    console.log('\n Archivo info.txt guardado con éxito en modo sincrónico!');
+    console.log('Archivo info.txt guardado con éxito en modo sincrónico!');
 
 } catch (error) {
     console.error('Error:', error.message);

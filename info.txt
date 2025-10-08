@@ -13,5 +13,6 @@
 		"license": "ISC",
 		"description": ""
 	},
-	"size": 256
+	"size": 256,
+	"modoGrabacion": "mac.js"
 }
