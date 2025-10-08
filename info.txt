@@ -1,0 +1,17 @@
+{
+	"contenidoStr": "{\n  \"type\": \"module\",\n  \"name\": \"02-tp-filesystemsincronicoyasincronico\",\n  \"version\": \"1.0.0\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"node index.js\"\n  },\n  \"keywords\": [],\n  \"author\": \"Daniel Alcazar\",\n  \"license\": \"ISC\",\n  \"description\": \"\"\n}\n",
+	"contenidoObj": {
+		"type": "module",
+		"name": "02-tp-filesystemsincronicoyasincronico",
+		"version": "1.0.0",
+		"main": "index.js",
+		"scripts": {
+			"test": "node index.js"
+		},
+		"keywords": [],
+		"author": "Daniel Alcazar",
+		"license": "ISC",
+		"description": ""
+	},
+	"size": 256
+}
