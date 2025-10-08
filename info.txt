@@ -14,5 +14,5 @@
 		"description": ""
 	},
 	"size": 256,
-	"scriptEjecutado": "maptc.js"
+	"scriptEjecutado": "mapaa.js"
 }
